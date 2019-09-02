@@ -128,17 +128,16 @@ This project was created on Lubuntu 18.04
   - TextureManger.cpp
 
 ## Capstone Criteria Met
-  The project makes use of references in function declarations - *Entity.cpp - line 3*
-  Templates generalise functions - *Entity.h - line 30*
-  Derived Class function override virtual base class functions - *Component.h -line 10*
-  Classes encapsulate behaviour - * SpriteComponent.h - line 80 *
-  Class constructors utilize member initialisation lists - *Entity.h - line 3*
-  Classes use appropriate access specifiers - * See any header file*
-  Uses OOP
-  
-  Reads data from files - * map.cpp - line 17 *
-  Accepts user input - * Game.cpp - line 79, KeyControlComponent.h *
-  Demonstrates C++ functions - * See whole project *
+  - The project makes use of references in function declarations - *Entity.cpp - line 3*
+  - Templates generalise functions - *Entity.h - line 30*
+  - Derived Class function override virtual base class functions - *Component.h -line 10*
+  - Classes encapsulate behaviour - * SpriteComponent.h - line 80 *
+  - Class constructors utilize member initialisation lists - *Entity.h - line 3*
+  - Classes use appropriate access specifiers - * See any header file*
+  - Uses OOP
+  - Reads - data from files - * map.cpp - line 17 *
+  - Accepts user input - * Game.cpp - line 79, KeyControlComponent.h *
+  - Demonstrates C++ functions - * See whole project *
   
 ## Acknowledgements
 I wanted to do Capstone 2 but I didn't want to have all of the boiler plate done for me. I wanted to learn that too. So a big thank you to Pikuma.com, which was instrumental in teaching me how to build this game engine demo and also with supplying the assets.
