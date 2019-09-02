@@ -26,12 +26,12 @@ This project was created on Lubuntu 18.04
    - army-group-1.png
    - army-group-2.png
    - army-group-3.png
-   - bandit-spritesheet.png
    - bullet-enemy.png
    - bullet-friendly.png
    - chopper-single.png
    - chopper-spritesheet.png
    - collision-texture.png
+   - file.txt
    - heliport.png
    - images.zip
    - obstacles.png
@@ -58,10 +58,47 @@ This project was created on Lubuntu 18.04
    - truck-down.png
    - truck-left.png
    - truck-right.png
-   
-  - sounds
-  - tilemaps
+
 - lib
+  - glm
+    - CMakeLists.txt
+    - common.hpp
+    - detail
+    - exponential.hpp
+    - ext
+    - ext.hpp
+    - fwd.hpp
+    - geometric.hpp
+    - glm.hpp
+    - gtc
+    - gtx
+    - integer.hpp
+    - mat2x2.hpp
+    - mat2x3.hpp
+    - mat2x4.hpp
+    - mat3x2.hpp
+    - mat3x3.hpp
+    - mat3x4.hpp
+    - mat4x2.hpp
+    - mat4x3.hpp
+    - mat4x4.hpp
+    - matrix.hpp
+    - packing.hpp
+    - simd
+    - trigonometric.hpp
+    - vec2.hpp
+    - vec3.hpp
+    - vec4.hpp
+    - vector_relational.hpp
+  - lua
+   - lauxlib.h
+   - luaconf.h
+   - lua.h
+   - lua.hpp
+   - lualib.h
+   - sol.hpp
+
+
 - Makefile
 - README.md
 - src
