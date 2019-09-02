@@ -31,7 +31,6 @@ This project was created on Lubuntu 18.04
    - chopper-single.png
    - chopper-spritesheet.png
    - collision-texture.png
-   - file.txt
    - heliport.png
    - images.zip
    - obstacles.png
@@ -91,17 +90,44 @@ This project was created on Lubuntu 18.04
     - vec4.hpp
     - vector_relational.hpp
   - lua
-   - lauxlib.h
-   - luaconf.h
-   - lua.h
-   - lua.hpp
-   - lualib.h
-   - sol.hpp
+     - lauxlib.h
+     - luaconf.h
+     - lua.h
+     - lua.hpp
+     - lualib.h
+     - sol.hpp
 
 
 - Makefile
 - README.md
 - src
+  - Animation.cpp
+  - Animation.h
+  - AssetManager.cpp
+  - AssetManager.h
+  - Collision.cpp
+  - Collision.h
+  - Component.h
+  - Components
+    - ColliderComponent.h
+    - KeyboardControlComponent.h
+    - SpriteComponent.h
+    - TileComponent.h
+    - TransformComponents.h
+  - Constants.h
+  - Entity.cpp
+  - Entity.h
+  - EntityManager.cpp
+  - EntityManager.h
+  - Game.cpp
+  - Game.h
+  - Main.cpp
+  - Map.cpp
+  - Map.h
+  - TextureManager.h
+  - TextureManger.cpp
+
+
 ## Capstone Criteria Met
 
 ## Acknowledgements
